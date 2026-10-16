@@ -1,0 +1,82 @@
+* {
+	margin:0;
+	padding:0 ;
+	box-sizing: border-box;
+}
+
+.img {
+	height: 100vh;
+	background: url("../assets/mar1.avif") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.img-2 {
+	height: 100vh;
+	background: url("../assets/praias.webp") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	margin-top: 40px;
+}
+
+.img-3{
+	height: 100vh;
+	background: url("../assets/monte.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	margin-top: 40px;
+}
+
+.img-4{
+	height: 100vh;
+	background: url("../assets/floresta.jpg") center center/cover;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	margin-top: 40px;
+}
+
+.titulo{
+	color: #ffffff;
+	font-weight: 40;
+	font-size: 37px;
+	border: 1px solid #ffffff;
+	padding: 10px 10px;
+}
+.texto {
+	margin-bottom: 20px;
+	margin-top: 35.5px;
+	padding-left: 200px;
+	padding-right:200px;
+}
+
+.icon {
+	bottom: 35px;
+	right: 20px;
+	color: #ffffff;
+	position:fixed ;
+	background-attachment: fixed;
+	border: 1px solid #000000;
+	padding: 7px 10px;
+	background: #000000;
+}
+
+.vermelho {
+	color: #ff0000;
+	font-weight: bold;
+}
